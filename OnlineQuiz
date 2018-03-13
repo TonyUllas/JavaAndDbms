@@ -98,28 +98,14 @@ public class Quiz1 {
 
 LOGIN PAGE
 
-package dbconnection;
-
-import java.awt.Color;
-import java.awt.Container;
-import java.awt.Font;
-import java.awt.List;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JPasswordField;
-import javax.swing.JTextField;
+import javax.swing.*;
+
 public class Login1
 {
 	public static void LoginFun()
@@ -438,7 +424,6 @@ SELECT OPTION PAGE
 package dbconnection;
 
 import javax.swing.*;
-
 import java.awt.*;
 import java.awt.event.*;
 
