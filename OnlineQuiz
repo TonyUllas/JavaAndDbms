@@ -422,7 +422,6 @@ public class Register1 {
 SELECT OPTION PAGE
 
 package dbconnection;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
